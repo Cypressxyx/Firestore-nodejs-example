@@ -1,4 +1,5 @@
 Install firestore SDK using
+
 	`npm i @google-cloud/firestore (local install)`
 
 Make sure to have a keyfile.json ready to access the db. 
