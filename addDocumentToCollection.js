@@ -27,8 +27,7 @@ document.set({
 	fieldNameOne: 'Hello',
 	fieldNameTwo: 'World!',
 }).then(() => {
-	console.log('Document has been created with fields', fieldNameOne, fieldNameTwo);
-	console.log(fieldNameOne, "\n", fieldNameTwo);
+	console.log('Document has been created with fields:', fieldNameOne, fieldNameTwo);
 });
 
 
