@@ -16,3 +16,7 @@ Contains an example of how to setup a connection to your firestore DB
 
 <h2> addDocumentToCollection.js </h2>
 Contains an example of how to add a document to a collection in your firestore DB
+
+<h2> getDataFromCollection.js </h2>
+Contains an exampleof how to get data from a certain collection
+
