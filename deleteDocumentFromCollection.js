@@ -7,7 +7,7 @@ const firestore = connectToFireStore.firestore;
 const collectionName = 'Skincare';
 const docName = 's'
 
-firestore.collection(collectionName).doc(docName).delete().then( function() { 
+firestore.collection(collectionName).doc(docName).delete().then( => { 
 	console.log('Document Deleted')
 	}).catch(err => {
 		console.log("there was an error in deleteind the file:", err)
