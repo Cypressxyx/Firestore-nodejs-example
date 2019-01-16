@@ -1,4 +1,7 @@
 <h1> Connecting to firestore using nodejs example </h1>
+This git provides example on how to use the firestore SDK
+
+<h2> Initial Setup </h2>
 Install firestore SDK using
 
 	npm i @google-cloud/firestore (local install)
@@ -7,3 +10,9 @@ Install firestore SDK using
 File can be found by going to 
 
 	project settings > service accounts > Firebase ADMIN SDK > Generate new Private key
+
+<h2> ConnecToDb.js </h2>
+Contains an example of how to setup a connection to your firestore DB
+
+<h2> addDocumentToCollection.js </h2>
+Contains an example of how to add a document to a collection in your firestore DB
