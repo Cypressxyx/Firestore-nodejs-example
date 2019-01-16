@@ -10,7 +10,7 @@ const docName = 's'
 firestore.collection(collectionName).doc(docName).delete().then( => { 
 	console.log('Document Deleted')
 	}).catch(err => {
-		console.log("there was an error in deleteind the file:", err)
+		console.log("there was an error in deleting the file:", err)
 });
 		
 
