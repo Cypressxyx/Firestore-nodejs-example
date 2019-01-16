@@ -1,5 +1,5 @@
 <h1> Connecting to firestore using nodejs example </h1>
-This git provides example on how to use the firestore SDK
+This git provides example on how to use the firestore SDK using node.js
 
 <h2> Initial Setup </h2>
 Install the firestore SDK locally using
