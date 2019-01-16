@@ -2,9 +2,9 @@
 This git provides example on how to use the firestore SDK
 
 <h2> Initial Setup </h2>
-Install firestore SDK using
+Install the firestore SDK locally using
 
-	npm i @google-cloud/firestore (local install)
+	npm i @google-cloud/firestore
 
 <b>Make sure to have a keyfile.json ready to access the db. </b>
 File can be found by going to 
